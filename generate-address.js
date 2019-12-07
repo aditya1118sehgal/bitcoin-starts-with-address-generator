@@ -18,7 +18,7 @@ const genAddrStartsWith = startsWith => {
       }
     }
     return key;
-  } else return '';
+  } else return 'please provide a string';
 };
 
 /**
