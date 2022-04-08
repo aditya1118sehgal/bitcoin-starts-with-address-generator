@@ -32,7 +32,7 @@ const getStartsWith = () => {
   }
 };
 
-/**
- * Entry point
- */
-(() => console.log (genAddrStartsWith (getStartsWith ()))) ();
+module.exports = {
+  getStartsWith,
+  genAddrStartsWith
+}

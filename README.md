@@ -7,3 +7,4 @@ $npm install
 
 ### Usage
 $node generate-address.js <your string>
+eg $node generate-address.js xyz
